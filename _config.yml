@@ -1,0 +1,5 @@
+safe: true
+destination: _site
+exclude:
+- Gemfile
+- Gemfile.lock
