@@ -2,8 +2,8 @@
 layout: default
 ---
 
-Demo@07.09.12
-=============
- 
-* [Devise#authenticated](http://rubydoc.info/github/plataformatec/devise/master/ActionDispatch/Routing/Mapper), Allow you to route based on whether a scope is authenticated. 
-* [An opinionated micro-framework for creating REST-like APIs in Ruby.](http://ya.ru)
+Coding practices & style
+========================
+
+* [Demo days](/index)
+* [CI with semaphoreapp.com](/ci-semaphoreapp)
