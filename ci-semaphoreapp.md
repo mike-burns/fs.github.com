@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Semaphoreapp.com
 ================
 
@@ -5,4 +9,4 @@ Semaphoreapp.com
 Если хотите использовать его в клиентском репозитории, то нужно попросить добавить `fs-admin` в репозиторий с
 правами Administration.
 
-Access: https://flatstack.basecamphq.com/W5010754
+[Access](https://flatstack.basecamphq.com/W5010754)
