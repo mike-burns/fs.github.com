@@ -8,7 +8,7 @@ You should cover validations, associations with shoulda matchers and test deeply
 complected model methods.
 Check out for example user_spec.rb
 
-{% highlight ruby %}
+```ruby
 describe User do
   it { should allow_mass_assignment_of(:full_name) }
   it { should allow_mass_assignment_of(:email) }
@@ -17,7 +17,7 @@ describe User do
 
   it { should validate_presence_of :full_name }
 end
-{% endhighlight %}
+```
 
 Use shortcuts `specify {}`, `it {}` and `subject {}`
 
