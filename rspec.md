@@ -1,8 +1,9 @@
 ---
 layout: default
+
 ---
 
-# RSpec Best Practices
+# RSpec Best Practices.
 
 You should cover validations, associations with shoulda matchers and test deeply
 complected model methods.
