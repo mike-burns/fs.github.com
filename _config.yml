@@ -1,6 +1,7 @@
 pygments: true
 safe: true
 destination: _site
+markdown: rdiscount
 rdiscount:
   extensions: [:smart, :autolink]
 exclude:
