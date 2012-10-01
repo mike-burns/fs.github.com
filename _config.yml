@@ -1,5 +1,8 @@
+pygments: true
 safe: true
 destination: _site
+rdiscount:
+  extensions: [:smart, :autolink]
 exclude:
 - Gemfile
 - Gemfile.lock
