@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Cucumber best practices
 
 ## Organization
