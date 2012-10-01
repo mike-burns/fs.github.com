@@ -15,6 +15,7 @@ Coding practices & style
 * [RSpec Best Practices](/rspec)
 * [Cucumber Best Practices](/cucumber)
 * [Application configuration](/rails-config)
+* [Gem management](/gems)
 * [CI with semaphoreapp.com](/ci-semaphoreapp)
 * [Trello boards usage](/trello)
 
