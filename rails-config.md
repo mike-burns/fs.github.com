@@ -10,42 +10,39 @@ Different application configurations could be stored in different places:
 
 Should be stored in the `config/application.rb`
 
-```ruby
-# Application specific options
-#
-# Name used in the html titles and mailers
-config.app_name = "Rails 3 Base example site"
+    # Application specific options
+    #
+    # Name used in the html titles and mailers
+    config.app_name = "Rails 3 Base example site"
 
-# Default host for action mailer, initializers/mailer.rb
-config.host = "localhost:5000"
-```
+    # Default host for action mailer, initializers/mailer.rb
+    config.host = "localhost:5000"
 
-## If need it overwrite settings for specified environments in the `config/environments/*.rb`
 
-# Application specific options
-#
-config.host = "fs-rails3-base.heroku.com"
+    ## If need it overwrite settings for specified environments in the `config/environments/*.rb`
+
+    # Application specific options
+    #
+    config.host = "fs-rails3-base.heroku.com"
 
 
 ## Gem related settings
 
-Should be stored in config/initializers/*.rb
+Should be stored in `config/initializers/*.rb`
 
-```ruby
-# config/initializers/mail_safe.rb
 
-# allow send emails to the @example.com
-#
-if defined?(MailSafe::Config)
-  MailSafe::Config.internal_address_definition = /^.*@example\.com$/i
-end
-```
+    # config/initializers/mail_safe.rb
 
-```ruby
-# config/initializers/mailer.rb
+    # allow send emails to the @example.com
+    #
+    if defined?(MailSafe::Config)
+      MailSafe::Config.internal_address_definition = /^.*@example\.com$/i
+    end
 
-ActionMailer::Base.default_url_options[:host] = app_config.host
-```
+    # config/initializers/mailer.rb
+
+    ActionMailer::Base.default_url_options[:host] = app_config.host
+
 
 ## Security sensitive config variables
 
