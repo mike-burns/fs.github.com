@@ -19,7 +19,7 @@ Check out for example user_spec.rb
     end
 
 
-Use shortcuts `specify {}`, `it {}` and `subject {}`
+Use shortcuts `let`, `it {}` and `subject {}`
 
     subject { @user.address }
     it { should be_valid }
@@ -29,17 +29,14 @@ Start context with ‘when’/'with’ and methods description with ‘#’
 
 Use RSpec matchers to get meaningful messages
 
-    specify { user.should be_valid }
+    it { should be_valid }
 
 
 Only one expectation per it block
 
     describe DemoMan do
-      before(:all) do
-        @demo_man = DemoMan.new
-      end
-
-      subject { @demo_man }
+      let(:demo_man) { DemoMan.new }
+      subject { demo_man }
 
       it { should respond_to :name   }
       it { should respond_to :gender }
@@ -50,33 +47,32 @@ Only one expectation per it block
 (Over)use describe and context
 
     describe User do
-      before { @user = User.new }
-
-      subject { @user }
+      let(:user) { User.new }
+      subject { user }
 
       context "when name empty" do
         it { should not be_valid }
-        specify { @user.save.should == false }
+        it { save.should be false }
       end
 
       context "when name not empty" do
-        before { @user.name = 'Sam' }
+        before { user.name = 'Sam' }
 
         it { should be_valid }
-        specify { @user.save.should == true }
+        it { save.should be true }
       end
 
       describe :present do
-        subject { @user.present }
+        subject { user.present }
 
         context "when user is a W" do
-          before { @user.gender = 'W' }
+          before { user.gender = 'W' }
 
           it { should be_a Flower }
         end
 
         context "when user is a M" do
-          before { @user.gender = 'M' }
+          before { user.gender = 'M' }
 
           it { should be_an IMac }
         end
