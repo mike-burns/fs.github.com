@@ -94,3 +94,4 @@ Test Valid, Edge and Invalid cases
     end
 
 http://eggsonbread.com/2010/03/28/my-rspec-best-practices-and-tips/
+http://betterspecs.org/
