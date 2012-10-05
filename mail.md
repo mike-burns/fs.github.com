@@ -5,12 +5,11 @@ layout: default
 Настройка почтовых ящиков @flatstack
 ====================================
 
-Формат адреса: name.surname@flatstack.com, 
+Формат адреса: `name.surname@flatstack.com`
 
-Основной домен @flatsourcing.com, ящики на @flatstack.com как алиасы для @flatsourcing.com
+Основной домен `@flatsourcing.com`, ящики на `@flatstack.com` как алиасы для `@flatsourcing.com`
 
-Проверка почты:
-http://mail.flatsourcing.com
+Проверка почты: http://mail.flatsourcing.com
 
 
 Как сделать адрес @flatstack.com основным
@@ -24,11 +23,12 @@ http://mail.flatsourcing.com
 
 ![](images/mail2.png)
 
-Откроется маленькое окно, в нём в поле Email address добавить name.surname@flatstack.com, заменив name.surname на свои данные 
+Откроется маленькое окно, в нём в поле `Email address` добавить `name.surname@flatstack.com`,
+заменив `name.surname` на свои данные.
 
 ![](images/mail3.png)
 
-"Send mail through your SMTP server?" оставить по умолчанию 
+`Send mail through your SMTP server?` оставить по умолчанию 
 
 ![](images/mail4.png)
 ![](images/mail5.png)
@@ -42,7 +42,7 @@ http://mail.flatsourcing.com
 
 ![](images/mail1.png)
 
-Выбрать Reply from the same address the message was sent to и выбрать  адрес  @flatstack.com по умолчанию
+Выбрать `Reply from the same address the message was sent to` и выбрать  адрес  `@flatstack.com` по умолчанию
 
 ![](images/mail9.png)
 
