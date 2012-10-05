@@ -19,3 +19,8 @@ Coding practices & style
 * [CI with semaphoreapp.com](/ci-semaphoreapp)
 * [Trello boards usage](/trello)
 
+Setting up stuff
+================
+
+* [Mail](/mail)
+* [Printers](/printers)
