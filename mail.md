@@ -32,7 +32,7 @@ layout: default
     ![](images/mail5.png)
 
 5.  Скопировать код из письма, (придёт в течении минуты)
-
+    
     ![](images/mail6.png)
     ![](images/mail8.png)
 
