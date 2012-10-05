@@ -33,8 +33,8 @@ layout: default
 
 5.  Скопировать код из письма, (придёт в течении минуты)
     
-    ![](images/mail6.png)
-    ![](images/mail8.png)
+  ![](images/mail6.png)
+  ![](images/mail8.png)
 
 6.  Зайти снова в настройки ящика
 
