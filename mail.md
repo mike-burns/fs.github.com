@@ -13,11 +13,11 @@ layout: default
 Как сделать адрес @flatstack.com основным
 -----------------------------------------
 
-1.  Зайти в настройки почты иконка в верхнем правом углу → Mail settings
+1.  Зайти в настройки почты иконка в верхнем правом углу `Mail settings`
     
     ![](images/mail1.png)
 
-2.  В разделе Accounts нажать на "Add another email address you own"
+2.  В разделе Accounts нажать на `Add another email address you own`
 
     ![](images/mail2.png)
 
