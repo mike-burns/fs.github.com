@@ -19,8 +19,8 @@ layout: default
 
 ## Ruby
 
-
 * [Complete Code School Try Ruby](http://www.codeschool.com/courses/try-ruby)
+* [Complete Code Academy Ruby](http://www.codecademy.com/ru/tracks/ruby)
 * [Complete Code School Ruby Bits](http://www.codeschool.com/courses/ruby-bits)
 * [Lear Ruby Coding Style guides](/style-guide)
 * [Learn Everyday Ruby fundamentals on Thoughtbot's trail map](https://github.com/thoughtbot/trail-map/blob/master/trails/ruby.md).
