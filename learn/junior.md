@@ -19,19 +19,26 @@ layout: default
 
 ## Ruby
 
+
 * [Complete Code School Try Ruby](http://www.codeschool.com/courses/try-ruby)
 * [Complete Code School Ruby Bits](http://www.codeschool.com/courses/ruby-bits)
+* [Lear Ruby Coding Style guides](/style-guide)
 * [Learn Everyday Ruby fundamentals on Thoughtbot's trail map](https://github.com/thoughtbot/trail-map/blob/master/trails/ruby.md).
 
 ## Rails
 
 * [Complete Code School Rails For Zombies](http://www.codeschool.com/courses/rails-for-zombies-redux)
 * [Complete Code School Rails For Zombies 2](http://www.codeschool.com/courses/rails-for-zombies-2)
+* [Lear Ruby Coding Style guides](http://tatsoft.ru/style-guide)
 * [Learn Everyday Rails fundamentals on Thoughtbot's trail map](https://github.com/thoughtbot/trail-map/blob/master/trails/rails.md).
+
+## Git
+
+* [Complete Code School Try Git](http://www.codeschool.com/courses/try-git)
+* [Complete Code School Git Real](http://www.codeschool.com/courses/git-real)
+* [Learn Git Flow](/git-flow)
+* [Learn Everyday Git fundamentals on Thoughtbot's trail map](https://github.com/thoughtbot/trail-map/blob/master/trails/git.md)
 
 ## Development tools and technics
 
 * [Learn Unix fundamentals on Thoughtbot's trail map](https://github.com/thoughtbot/trail-map/blob/master/trails/unix.md)
-* [Learn Everyday Git fundamentals on Thoughtbot's trail map](https://github.com/thoughtbot/trail-map/blob/master/trails/git.md)
-* [Complete Code School Try Git](http://www.codeschool.com/courses/try-git)
-* [Complete Code School Git Real](http://www.codeschool.com/courses/git-real)
