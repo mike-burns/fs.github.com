@@ -2,13 +2,11 @@
 layout: default
 ---
 
-Version control
-===============
+# Version control
 
 * [Git Flow](/git-flow)
 
-Coding practices & style
-========================
+# Coding practices & style
 
 * [Demo days](/demo)
 * [Style Guide](style-guide)
@@ -19,8 +17,12 @@ Coding practices & style
 * [CI with semaphoreapp.com](/ci-semaphoreapp)
 * [Trello boards usage](/trello)
 
-Setting up stuff
-================
+# Setting up stuff
 
 * [Mail](/mail)
 * [Printers](/printers)
+
+# How to Learn
+
+* [Junior Developers](/learn/junior)
+
