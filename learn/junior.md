@@ -22,14 +22,14 @@ layout: default
 * [Complete Code School Try Ruby](http://www.codeschool.com/courses/try-ruby)
 * [Complete Code Academy Ruby](http://www.codecademy.com/ru/tracks/ruby)
 * [Complete Code School Ruby Bits](http://www.codeschool.com/courses/ruby-bits)
-* [Lear Ruby Coding Style guides](/style-guide)
+* [Learn Ruby Coding Style guides](/style-guide)
 * [Learn Everyday Ruby fundamentals on Thoughtbot's trail map](https://github.com/thoughtbot/trail-map/blob/master/trails/ruby.md).
 
 ## Rails
 
 * [Complete Code School Rails For Zombies](http://www.codeschool.com/courses/rails-for-zombies-redux)
 * [Complete Code School Rails For Zombies 2](http://www.codeschool.com/courses/rails-for-zombies-2)
-* [Lear Ruby Coding Style guides](http://tatsoft.ru/style-guide)
+* [Learn Ruby Coding Style guides](http://tatsoft.ru/style-guide)
 * [Learn Everyday Rails fundamentals on Thoughtbot's trail map](https://github.com/thoughtbot/trail-map/blob/master/trails/rails.md).
 
 ## Git
