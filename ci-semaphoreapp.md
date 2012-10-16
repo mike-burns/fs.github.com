@@ -21,13 +21,13 @@ Good practice is to use [script/bootstrap](https://github.com/fs/rails3-base/blo
 
 ## Deploy to Heroku
 
-If you would like ship code to Heroku right after success build you can use [`script/ci_deploy`](https://github.com/fs/rails3-base/blob/develop/script/ci_deploy)
+If you would like ship code to Heroku right after success build you can use [script/ci_deploy](https://github.com/fs/rails3-base/blob/develop/script/ci_deploy)
 
     script/ci_deploy master your-heroku-app-name private-key-encoded-with-base64
     
 * `master` - Branch which will deploy to Heroku after build, all other brunches will be ignored
 * `your-heroku-app-name` - Name of you Heroku application, will used for generating right Heroku git remote repository name
-* `private-key-encoded-with-base64` - Content of the SSH private key which will be used during push to Heroku. The good practice is to setup separate Heroku collaborator for each application with different SSH keys.
+* `private-key-encoded-with-base64` - Content of the SSH private key which will be used during push to Heroku. The good practice is to setup separate Heroku collaborator (eg: timur.vafin+rails3-base@flatstack.com) for each application with different SSH keys.
 
 ## Campfire notifications
 
