@@ -4,6 +4,8 @@ layout: default
 
 # Learn map for Junior Developer
 
+Use our corporate [library](https://flatstack.backpackit.com/pages/2708024-library) if you need any kind of books.
+
 ## Basic Web
 
 * [Complete Code Academy Web Fundamentals](http://www.codecademy.com/ru/tracks/web)
@@ -42,3 +44,5 @@ layout: default
 ## Development tools and technics
 
 * [Learn Unix fundamentals on Thoughtbot's trail map](https://github.com/thoughtbot/trail-map/blob/master/trails/unix.md)
+
+
