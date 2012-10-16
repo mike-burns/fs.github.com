@@ -20,7 +20,7 @@
         </h1>
         <p></p>
         <p class="view"><a href="https://github.com/fs">View My GitHub Profile</a></p>
-        <p><a href="https://github.com/fs/fs.github.com/edit/master{{ page.url }}.md">Feel free to update</a></p>
+        <p><a href="https://github.com/fs/fs.github.com/edit/master{{ page.url | replace_first:'.html','.md' }}">Feel free to update</a></p>
       </header>
       <section>
         {{ content }}
