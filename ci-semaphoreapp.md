@@ -34,8 +34,8 @@ If you would like ship code to Heroku right after success build you can use [scr
 
 You can setup Campfire notification for each build:
 * Project settings -> Nitifications -> Campfire
-* Setup subdomain: flatstack
-* Room: room name, not an id
+* Setup subdomain: `flatstack`
+* Room: **room name**, not an id
 * Token: we use special Campfire user [CI Bot](https://flatstack.basecamphq.com/W5050260). Insert token here.
 
-Make sure it have access to specified campfire Room.
+**Note:** make sure it have access to specified campfire Room.
