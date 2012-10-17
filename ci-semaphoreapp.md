@@ -41,8 +41,8 @@ The good practice is to setup separate Heroku collaborator for each application 
 3.  Add key to heroku https://devcenter.heroku.com/articles/keys.
     Make sure that you are adding keys for the newly created account (not your usual heroku account):
 
-       heroku login your.email+project-name@flatstack.com
-       heroku keys:add /tmp/key-project-name.pub
+        heroku login your.email+project-name@flatstack.com
+        heroku keys:add /tmp/key-project-name.pub
 
 ## Campfire notifications
 
