@@ -44,9 +44,12 @@ The good practice is to setup separate Heroku collaborator for each application 
         heroku login your.email+project-name@flatstack.com
         heroku keys:add /tmp/key-project-name.pub
 
+4. Add newly created user to colloborators for your project.
+
 ## Campfire notifications
 
 You can setup Campfire notification for each build:
+
 * Project settings -> Nitifications -> Campfire
 * Setup subdomain: `flatstack`
 * Room: **room name**, not an id
