@@ -10,7 +10,7 @@ layout: default
 
 * [Demo days](/demo)
 * [Style Guide](style-guide)
-* [RSpec Best Practices](/rspec)
+* [RSpec Best Practices](http://betterspecs.org/)
 * [Cucumber Best Practices](/cucumber)
 * [Application configuration](/rails-config)
 * [Gem management](/gems)
