@@ -36,7 +36,7 @@ The good practice is to setup separate Heroku collaborator for each application 
 1.  [Sign up](https://api.heroku.com/signup) with new heroku user with email like this `your.email+project-name@flatstack.com`
 2.  Then generate ssh keys for the new user:
   
-        ssh-keygen -t rsa -C "your.email+project-name@flatstack.com" /tmp/key-project-name
+        ssh-keygen -t rsa -C "your.email+project-name@flatstack.com" -f /tmp/key-project-name
 
 3.  Add key to heroku https://devcenter.heroku.com/articles/keys.
     Make sure that you are adding keys for the newly created account (not your usual heroku account):
