@@ -27,6 +27,7 @@ layout: default
 
 * [Mail](/office/mail)
 * [Printers](/office/printers)
+* [New development box setup instructions](/office/new-dev-box)
 
 # How to Learn
 
