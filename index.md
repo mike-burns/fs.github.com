@@ -8,7 +8,7 @@ layout: default
 * [CI setup instructions](/dev/ci-semaphoreapp)
 * [Git flow](/dev/git-flow)
 * [Coding style guides](/dev/style-guide)
-* [RSpec Best Practices](/dev/rspec)
+* [RSpec Best Practices](http://betterspecs.org/)
 * [Cucumber Best Practices](/dev/cucumber)
 * [Application configuration](/dev/rails-config)
 * [Gem management](/dev/gems)
