@@ -79,12 +79,14 @@ The following settings are necessary to configure ActionMailer
 It's good to know when app shipped to the world.
 Enable Campfire notifications on deploy:
 
-    heroku addons:add deployhooks:campfire \
-    --url=URL \
-    --ssl=1 \
-    --api_key=API_KEY \
-    --room="ROOM_NAME" \
-    --message="{{user}} deployed {{head}} to {{app}} {{url}}"
+```
+$ heroku addons:add deployhooks:campfire \
+--url=URL \
+--ssl=1 \
+--api_key=API_KEY \
+--room="ROOM_NAME" \
+--message="{{user}} deployed {{head}} to {{app}} {{url}}"
+```
 
 * URL: `flatstack`
 * ROOM_NAME: Campfire room name, not an id
