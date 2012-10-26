@@ -79,12 +79,7 @@ The following settings are necessary to configure ActionMailer
 It's good to know when app shipped to the world.
 Enable Campfire notifications on deploy:
 
-    heroku addons:add deployhooks:campfire \
-    --url=URL \
-    --ssl=1 \
-    --api_key=API_KEY \
-    --room="ROOM_NAME" \
-    --message="{{user}} deployed {{head}} to {{app}} {{url}}"
+<script src="https://gist.github.com/3960067.js"> </script>
 
 * URL: `flatstack`
 * ROOM_NAME: Campfire room name, not an id
@@ -96,15 +91,13 @@ Enable Campfire notifications on deploy:
 
 If you use [Airbrake.io](https://www.airbrake.io) for tracking exceptions, you should notify it about deploy:
 
-    heroku addons:add deployhooks:http \
-    --url=http://airbrake.io/deploys.txt?deploy[rails_env]=RAILS_ENV&api_key=API_KEY&deploy[local_username]={{user}}&deploy[scm_revision]={{head_long}}&deploy[scm_repository]=SCM_REPOSITORY
+<script src="https://gist.github.com/3960086.js"> </script>
 
 * RAILS_ENV: Application current environment
 * API_KEY: Airbrake.io API key, uniq per project
 * SCM_REPOSITORY: github repository URL, example: `git://github.com/fs/rails3-base.git`
 
 [Access to Airbrake.io](https://flatstack.basecamphq.com/W5071773)
-
 
 ## Deply with Semaphoreapp.com
 
