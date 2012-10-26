@@ -6,7 +6,7 @@ layout: default
 
 ## Prepare
 
-[Created account on Heroku.com and instaleld Heroku Toolbelt](https://devcenter.heroku.com/articles/quickstart).
+[Created account on Heroku.com and install Heroku Toolbelt](https://devcenter.heroku.com/articles/quickstart).
 
 Please use your `@flatstack.com` email account.
 
