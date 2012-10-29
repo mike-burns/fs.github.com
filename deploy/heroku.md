@@ -28,7 +28,7 @@ command to run it:
 
 ## Optimize slug size
 
-Make sure Heroku won't install `developmen` and `test` gems
+Make sure Heroku won't install `development` and `test` gems
 
     $ heroku config:set BUNDLE_WITHOUT="development:test"
 
@@ -37,8 +37,8 @@ Make sure Heroku won't install `developmen` and `test` gems
 Normally, we have a staging and production environment for our application.
 We can handle this with different git remotes:
 
-    $ git remote add heroku-staging git@heroku.com:myapp-production.git
-    $ git remote add heroku-production git@heroku.com:myapp-staging.git
+    $ git remote add heroku-staging git@heroku.com:myapp-staging.git
+    $ git remote add heroku-production git@heroku.com:myapp-production.git
 
 Setup `RACK_ENV, RAILS_ENV` accordingly with you app environment
 
