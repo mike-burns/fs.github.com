@@ -49,6 +49,13 @@ The good practice is to setup separate Heroku collaborator for each application 
 
 5. Checkout [Heroku API key](https://dashboard.heroku.com/account) for newlly created account
 
+### Migrations
+
+`script/ci_deploy` will run databse migrations right after deploy using `heroku` command.
+It will require to have `heroku` gem in the `test` group in the `Gemfile` and Heroku API key to authenticate with `heroku` command.
+
+You need to pass Heroku API key as last argument to `script/ci_deploy`
+
 ## Campfire notifications
 
 You can setup Campfire notification for each build:
