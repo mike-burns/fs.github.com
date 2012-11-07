@@ -11,3 +11,16 @@ We use [pingdom](http://pingdom.com) as an uptime and performance monitoring ser
 * [Access to pingdom](https://flatstack.basecamphq.com/W5089997)
 * [Add new contact](https://my.pingdom.com/contacts)
 * [Add new check](https://my.pingdom.com/checks)
+
+
+## Error handling
+
+## Icons
+
+## Error pages
+
+## Analytics
+
+## Migrations
+
+## Dependencies
