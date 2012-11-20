@@ -12,3 +12,4 @@ layout: default
 * Test tools: BDD, CI, RSpec
 * Deployment: Heroku, Amazon EC2
 * Monitoring: Pingdom
+* Error Handling: Airbrake.io
