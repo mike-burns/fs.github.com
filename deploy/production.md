@@ -6,21 +6,32 @@ layout: default
 
 ## Pingdom
 
-We use [pingdom](http://pingdom.com) as an uptime and performance monitoring service for our production apps.
+We use [Pingdom](https://flatstack.basecamphq.com/W5089997) as an uptime and performance monitoring service for our production apps.
 
-* [Access to pingdom](https://flatstack.basecamphq.com/W5089997)
 * [Add new contact](https://my.pingdom.com/contacts)
 * [Add new check](https://my.pingdom.com/checks)
 
 
 ## Error handling
 
+Use [Airbrake.io](https://flatstack.basecamphq.com/W5071773) for error handling.
+
 ## Icons
+
+Make sure favicon is in palce.
 
 ## Error pages
 
+Make sure all error pages styled.
+
 ## Analytics
+
+Make sure Google Analytics is in place.
 
 ## Migrations
 
+Make sure new migrations applyed.
+
 ## Dependencies
+
+Make sure new application dependencies installed.
