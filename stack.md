@@ -9,7 +9,7 @@ layout: default
 * Frontend: Slim, Sass
 * Frontend JS: CofeeScript, jQuery, Backbone.js
 * Development tools: Mac, Git, Unix
-* Test tools: BDD, CI, RSpec
-* Deployment: Heroku, Amazon EC2
+* Test tools: BDD, CI, RSpec, Capybara
+* Deployment: Heroku, Amazon EC2, Capistrano, Chef
 * Monitoring: Pingdom
 * Error Handling: Airbrake.io
