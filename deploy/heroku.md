@@ -6,7 +6,7 @@ layout: default
 
 ## Prepare
 
-[Created account on Heroku.com and install Heroku Toolbelt](https://devcenter.heroku.com/articles/quickstart).
+[Create an account on Heroku.com and install Heroku Toolbelt](https://devcenter.heroku.com/articles/quickstart).
 
 Please use your `@flatstack.com` email account.
 
@@ -102,3 +102,9 @@ If you use [Airbrake.io](https://www.airbrake.io) for tracking exceptions, you s
 ## Deply with Semaphoreapp.com
 
 If you would like ship code to Heroku right after success build you can use please follow [these instructions](/dev/ci-semaphoreapp).
+
+## Make sure everything's ok.
+
+Check out Heroku's [Visibility & Introspection](http://blog.heroku.com/archives/2011/6/24/the_new_heroku_3_visibility_introspection/)
+
+    watch heroku ps

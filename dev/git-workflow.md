@@ -140,4 +140,4 @@ You should receive Campfire notifications one from CI and one from Heroku right 
 
     CI B. firstname.lastname+project-name@flatstack.com deployed 6dc7b79 to project-name http://project-name.herokuapp.com
 
-**Note**: Make sure featured deployed correctly and test it in browser.
+**Note**: Make sure feature is deployed correctly and test it in browser.
