@@ -4,7 +4,7 @@ layout: default
 
 # Our stack and technology
 
-* Backend: Ruby On Rails
+* Backend: Ruby On Rails, Sinatra
 * Backend DB: MySQL, PostgreSQL, MongoDB
 * Frontend: Slim, Sass
 * Frontend JS: CofeeScript, jQuery, Backbone.js
