@@ -7,3 +7,5 @@ layout: default
 * Run tests with [Semaphoreapp.com](/dev/ci-semaphoreapp)
 * Deploy to [Heroku](/deploy/heroku)
 * Use [Trello](/management/trello) for user stories
+* Setup Basecamp project
+* Setup Campfire chat
