@@ -6,7 +6,8 @@ layout: default
 
 ## Pingdom
 
-We use [Pingdom](https://flatstack.basecamphq.com/W5089997) as an uptime and performance monitoring service for our production apps.
+We use [Pingdom](https://pingdom.com) as an uptime and performance monitoring service for our production apps.
+Contact [our admins](mailto:support@flatstack.com) to setup this for you.
 
 ### Add new check
 * [Add new check](https://my.pingdom.com/checks)
